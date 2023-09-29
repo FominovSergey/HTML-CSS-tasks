@@ -8,6 +8,16 @@
     line-height: 150%; /* 24px */
 }
 
+body
+{
+    background: #F3EFEA;
+} 
+
+footer
+{
+    background: #715B4B;
+}
+
 .title-1
 {
     color: #57463A;
