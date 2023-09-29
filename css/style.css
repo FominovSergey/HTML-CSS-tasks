@@ -82,12 +82,23 @@
     font-weight: 700;
 }
 
-.AboutUs-FIO
+.aboutAs-FIO
 {
     color: #000;
     font-family: Tenor Sans;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+
+.aboutAs-philosophy
+{
+    color: #323232;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
     line-height: 150%; /* 36px */
 }
