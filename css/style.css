@@ -8,6 +8,17 @@
     line-height: 150%; /* 24px */
 }
 
+.title-1
+{
+    color: #57463A;
+    /* Title 1 */
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 72px */
+}
+
 .custom-furniture-numbers
 {
     color: #57463A;
@@ -20,6 +31,16 @@
     line-height: 150%; /* 72px */
 }
 
+.custom-furniture-production-stages
+{
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 102.99%; /* 16.478px */
+}
+
 .main-txt
 {
     color: #323232;
@@ -30,4 +51,43 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
+}
+
+.masterClasses-our-works
+{
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 102.99%; /* 16.478px */
+}
+
+.masterClasses-maim-txt
+{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 27px */
+}
+
+.masterClasses-what-we-do
+{
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.AboutUs-FIO
+{
+    color: #000;
+    font-family: Tenor Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
 }
