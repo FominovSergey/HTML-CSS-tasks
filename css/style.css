@@ -1,44 +1,122 @@
-.custom-furniture-subtitle
-{
-    color: #323232;
-    font-family: Open Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%; /* 24px */
-}
-
 body
 {
     background: #F3EFEA;
+    
+    color: #57463A;
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 } 
+header{
+    font-size: 14px;
+}
 
 footer
 {
     background: #715B4B;
 }
+.logo{
+    width: 87px;
+    height: 86px;
+}
 
+h1,h2{
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h1{
+    text-align: center;
+}
+
+.txt-in-tittle{
+    text-align: center;
+}
+
+.main-button{
+    
+    width: 328px;
+    height: 60px;
+    border: none;
+    background: #F6F6F6;
+    
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.custom-furniture-numbers{
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.custom-furniture-subtitle
+{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.submit_your_application_button{
+    width: 245px;
+    height: 60px;
+    background: #A1B29F;
+    border: none;
+
+    color: #F6F6F6;
+    font-weight: 700;
+}
+
+.main-foto-portfolio{
+    width: 818px;
+    height: 694.166px;
+
+    display: flex;
+}
+
+.other-foto-portfolio{
+    width: 103px;
+    height: 102px;
+
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.nav__item{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+        
+}
+
+
+
+/*
 .title-1
 {
     color: #57463A;
-    /* Title 1 */
+    /* Title 1 
     font-family: Tenor Sans;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 72px */
+    line-height: 150%; /* 72px 
 }
+
 
 .custom-furniture-numbers
 {
     color: #57463A;
 
-    /* Title 1 */
+    /* Title 1 
     font-family: Tenor Sans;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 72px */
+    line-height: 150%; /* 72px 
 }
 
 .custom-furniture-production-stages
@@ -48,20 +126,10 @@ footer
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 102.99%; /* 16.478px */
+    line-height: 102.99%; /* 16.478px 
 }
 
-.main-txt
-{
-    color: #323232;
 
-    /* Text */
-    font-family: Open Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-}
 
 .masterClasses-our-works
 {
@@ -70,7 +138,7 @@ footer
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 102.99%; /* 16.478px */
+    line-height: 102.99%; /* 16.478px 
 }
 
 .masterClasses-maim-txt
@@ -80,7 +148,7 @@ footer
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 150%; /* 27px */
+    line-height: 150%; /* 27px 
 }
 
 .masterClasses-what-we-do
@@ -99,7 +167,7 @@ footer
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 36px */
+    line-height: 150%; /* 36px 
 }
 
 .aboutAs-philosophy
@@ -110,5 +178,6 @@ footer
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
-    line-height: 150%; /* 36px */
+    line-height: 150%; /* 36px 
 }
+*/
