@@ -8,6 +8,15 @@ body
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+
+
+    
+} 
+
+.cotainer{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
 } 
 header{
     font-size: 14px;
@@ -16,10 +25,31 @@ header{
 footer
 {
     background: #715B4B;
+    color: #F6F6F6;
+    height: 380px;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-right: 140px;
+    padding-left: 140px;
 }
+.footer{
+    margin-top: 86px;
+    width: 250px;
+    color: #F6F6F6;
+}
+.logo_messanger{
+
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .logo{
     width: 87px;
     height: 86px;
+
 }
 
 h1,h2{
@@ -30,6 +60,12 @@ h1,h2{
 
 h1{
     text-align: center;
+}
+
+h2{
+    margin-bottom: 100px;
+    margin-top: 160px;
+    line-height: 150%
 }
 
 .txt-in-tittle{
@@ -52,12 +88,17 @@ h1{
     font-family: Tenor Sans;
     font-size: 48px;
     font-weight: 400;
+    margin: 5px;
 }
 
 .custom-furniture-subtitle
 {
     font-weight: 700;
     font-size: 16px;
+
+    border-bottom: 1px solid #000;
+
+    
 }
 
 .submit_your_application_button{
@@ -68,6 +109,7 @@ h1{
 
     color: #F6F6F6;
     font-weight: 700;
+
 }
 
 .main-foto-portfolio{
@@ -85,12 +127,85 @@ h1{
     justify-content: space-between;
 }
 
-.nav__item{
-    display: inline-flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-        
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.nav__item{
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.choose{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    
+    margin-bottom: 100px;
+}
+
+.choose-us{
+    width: 30%;
+    height: 10px;
+    margin-bottom: 100px;
+}
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.other-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 16px;
+    margin: 16px;
+}
+
+.production-stages{
+    width: 386px;
+    height: 134px;
+    border: 1px solid #000;
+}
+.production-stages-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.custom-furniture-numbers{
+    text-align: end;
+    margin-right: 50px;
+}
+.custom-furniture-production-stages{
+    font-weight: 300;
+    line-height: 102.99%;
+    width: 240px;
+    margin-left: 15px;
+}
+.customFurniture_feedback{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.submit_your_application{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
 
 
 
