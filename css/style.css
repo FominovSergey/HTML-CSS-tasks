@@ -259,6 +259,111 @@ ul{
 .aboutAs-SMI-txt{
     margin-bottom: 100px;
 }
+.masterСlasses-our-works{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 50px;
+}
+.masterСlasses-our-works-foto{
+    width: 260px;
+    height: 300px;
+}
+.masterClasses-our-works-txt{
+    text-align: center;
+    margin-top: 25px;
+}
+.moreExamples-button{
+    width: 328px;
+    height: 60px;
+    background: #A1B29F;
+    border: none;
+
+    color: #F6F6F6;
+    font-weight: 700;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    margin-top: 90px;
+}
+.masterClasses-stages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 57px;
+}
+.masterClasses-stages-conteiner{
+    width: 610px;
+    display: inline-flex;
+    column-gap: 43px;
+}
+.masterClasses-what-we-do{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+    column-gap: 105px;
+    row-gap: 50px;
+}
+.masterClasses-what-we-do-foto{
+    width: 200px;
+}
+.masterClasses-what-we-do-txt{
+    text-align: center;
+    margin-top: 25px;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.masterClasses-carpentry{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+    column-gap: 40px;
+}
+.masterClasses-carpentry-foto{
+    width: 560px;
+}
+.masterClasses-carpentry-txt{
+    text-align: center;
+    margin-top: 25px;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.masterClasses-manual{
+    display: inline-flex;
+    align-items: center;
+    column-gap: 60px;
+    padding-bottom: 320px;
+}
+.masterClasses-manual-foto{
+    margin-bottom: 100px;
+    margin-top: 160px;
+}
+.masterClasses-manual-conteiner{
+    align-self: flex-start;
+}
+.masterClasses-manual-txt{
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 50px;
+    width: 600px;
+}
+.masterClasses-manual-button{
+    width: 245px;
+    height: 60px;
+    background: #A1B29F;
+    border: none;
+
+    color: #F6F6F6;
+    font-weight: 700;
+}
+
 /*
 .title-1
 {
