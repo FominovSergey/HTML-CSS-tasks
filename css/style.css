@@ -363,7 +363,132 @@ ul{
     color: #F6F6F6;
     font-weight: 700;
 }
+.title-custom-furniture{
+    height: 640px;
+    background-image: url("/img/main_fon_customFurniture.jpg");
+    background-size: cover;
 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.white-title-color{
+    color: #F6F6F6;
+}
+
+.title-index{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 780px;
+}
+.title-index-txt{
+    width: 550px;
+    height: 50%;
+}
+.title-index-txts{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: end;
+    width: 45%;
+    padding-left: 50px;
+}
+.title-index-txt-h1{
+    text-align: left;
+}
+.title-index-logos{
+    height: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 40px;
+}
+.title-index-logo{
+    width: 30px;
+    height: 30px;
+}
+.title-index-button{
+    width: 245px;
+    height: 60px;
+    background: #A1B29F;
+    border: none;
+    color: #F3EFEA;
+
+    margin-top: 70px;
+}
+.index-brend{
+    display: flex;
+    justify-content: space-around;
+}
+.index-brend-txt{
+    width: 25%;
+    border-bottom: #715B4B solid 3px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.index-we-do{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.index-we-do-conteiner{
+    width: 24%;
+    height: 250px;
+    border: #000 1px solid;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.index-we-do-foto{
+    width: 100px;
+    height: 100px;
+}
+.bg-color-we{
+    background: #EBEEEB;
+}
+.bg-color-we-castom{
+    background: #E3DACE;
+}
+.bg-color-we-mk{
+    background: #D4CDC3;
+}
+.index-we{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.index-we-fotos{
+    width: 45%;
+}
+.index-we-foto{
+    width: 100%;
+    height: 100%;
+    align-items: normal;
+}
+.index-we-txts{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+.index-we-txt{
+    width: 515px;
+}
+.index-we-button{
+    width: 245px;
+    height: 60px;
+
+    background: #A1B29F;
+    color: #F6F6F6;
+    text-align: center;
+    border: none;
+}
 /*
 .title-1
 {
